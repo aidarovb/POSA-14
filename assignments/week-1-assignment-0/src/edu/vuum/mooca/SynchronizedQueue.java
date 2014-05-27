@@ -232,6 +232,8 @@ public class SynchronizedQueue {
             // Give the Threads a chance to run before interrupting
             // them.
             Thread.sleep(100);
+            //producer.sleep(100);
+            //consumer.sleep(100);
 
             // TODO - you fill in here to interrupt the threads.
             producer.interrupt();
